@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+body nav {
+  width: 100%;
+  height: 150px;
+  background-color: #444444;
+}
+body nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+body nav li {
+  margin-top: 40px;
+  padding: 20px 20px;
+}
+body nav a {
+  text-decoration: none;
+  color: #F8FAFD;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+}
+body h2 {
+  margin: 100px;
+  padding: 30px;
+  font-family: "Lato", sans-serif;
+  color: #F8FAFD;
+  font-size: 50px;
+}
+body .trending-movies {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+  margin-left: 80px;
+}
+body .trending-movies .images {
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+}
+body .trending-movies .treandingmovies {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 10px;
+  color: #F8FAFD;
+  height: 500px;
+  width: 350px;
+}
+body .trending-movies .treandingmovies:hover {
+  cursor: pointer;
+  animation: rubberBand;
+  animation-duration: 2s;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+body #similarMovies {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+  margin-left: 80px;
+}
+body #similarMovies .images {
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+}
+body #similarMovies .treandingmovies {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 10px;
+  color: #F8FAFD;
+  height: 500px;
+  width: 350px;
+}
+body #similarMovies .treandingmovies:hover {
+  cursor: pointer;
+  animation: rubberBand;
+  animation-duration: 2s;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+body #input {
+  width: 600px;
+  height: 45px;
+  margin-left: 700px;
+  font-size: 15px;
+  border-radius: 45px;
+  padding-left: 30px;
+  border: 1px solid #444444;
+}/*# sourceMappingURL=style.css.map */
