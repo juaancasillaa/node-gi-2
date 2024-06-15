@@ -98,4 +98,42 @@ body #input {
   border-radius: 45px;
   padding-left: 30px;
   border: 1px solid #444444;
+}
+body button {
+  --color: #0077ff;
+  font-family: "Lato", sans-serif;
+  display: inline-block;
+  width: 6em;
+  height: 2.6em;
+  line-height: 2.5em;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 20px;
+  font-size: 17px;
+  z-index: 1;
+  color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 6px;
+  position: relative;
+}
+body button::before {
+  position: absolute;
+  content: "";
+  background: var(--color);
+  width: 150px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 50%;
+}
+body button:hover {
+  color: white;
+}
+body button:before {
+  top: 100%;
+  left: 100%;
+  transition: 0.3s all;
+}
+body button:hover::before {
+  top: -30px;
+  left: -30px;
 }/*# sourceMappingURL=style.css.map */
